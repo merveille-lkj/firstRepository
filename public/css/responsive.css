@@ -1,0 +1,113 @@
+/* Responsive mobile  */
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    header{
+        display: none;
+    }
+
+    .menu_responsive{
+        position: relative;
+        display: block;
+    }
+
+    .menu_responsive .menu{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        background: #fff;
+    }
+
+    .menu_responsive .menu h1{
+        font-size: 25px;
+    }
+
+    .menu_responsive .menu span{
+        font-size: 20px;
+    }
+
+    .menu_responsive .content{
+        display: none;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        width: 100%;
+        background: #c97c10;
+    }
+
+    .menu_responsive .content.active{
+        height: 100vh;
+        display: flex;
+    }
+
+    .menu_responsive .content .links{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }       
+
+    .menu_responsive .content .link{
+        padding-bottom: 15px;
+    }
+
+    .menu_responsive .content .links a{
+        color: #000;
+        font-size: 22px;
+    }
+
+    .menu_responsive .content .links span{
+        font-size: 25px;
+    }   
+
+    .menu_responsive .content .second{
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .menu_responsive .content .second a{
+        background: #0c2077;
+        padding: 20px;
+        color: #fff;
+        border-radius: 15px;
+        font-weight: 700;
+    }
+
+    main{
+        display: none;
+    }
+
+    section{
+        display: none;
+    }
+
+    .footer_top{
+       flex-direction: column;
+       align-items: flex-start;
+    }
+
+    .footer_container .footer_top .box{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .footer_container .footer_top .menu{
+        padding-left: 0px;
+    }
+
+    .footer_container .footer_bottom{
+        margin-top: 0px;
+    }
+}
+
+/* Responsive mobile  */
+
+
+/* Responsive tablette  */
+
+@media screen and (min-width: 600) and (max-width: 1024) {
+}
+
+/* Responsive tablette  */
